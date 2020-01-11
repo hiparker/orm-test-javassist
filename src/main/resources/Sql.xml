@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<class>
+
+    <select-all  entity="org.ormtest.step005.entity.User">
+        <sql>
+            select * from t_user limit 200000
+        </sql>
+    </select-all>
+
+</class>
